@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo Fei252895 | sudo -S *)",
+      "Bash(sudo apt-get *)",
+      "Bash(mvn *)",
+      "Bash(git *)"
+    ]
+  }
+}

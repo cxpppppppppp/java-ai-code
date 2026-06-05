@@ -14,3 +14,7 @@ Thumbs.db
 
 # Maven wrapper
 .mvn/wrapper/maven-wrapper.properties
+
+# Claude local config
+CLAUDE.local.md
+.claude/settings.local.json
