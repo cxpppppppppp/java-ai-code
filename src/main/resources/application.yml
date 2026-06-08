@@ -7,6 +7,17 @@ spring:
     username: test_user
     password: test_pass_123
     driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      timeout: 2000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1ms
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

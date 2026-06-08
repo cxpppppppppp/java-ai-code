@@ -1,8 +1,11 @@
 package com.ai.code.entity;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class User {
+public class User implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private Long id;
     private String name;

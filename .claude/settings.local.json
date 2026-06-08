@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(sudo -S mysql *)",
-      "Bash(mysql *)"
-    ]
-  }
-}
